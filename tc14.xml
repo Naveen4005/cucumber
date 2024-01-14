@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite">
+<test name="test">
+<classes>
+<parameter name="tc" value="TC14"/>
+<class name="tests.amazon_create_account"/>
+</classes>
+</test>
+</suite>

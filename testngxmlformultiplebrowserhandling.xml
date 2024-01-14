@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite">
+	<test name="test">
+		
+		<classes>
+			<parameter name="url" value="https://www.facebook.com/"/>
+		    <parameter name="browsername" value="chrome"/>
+
+			<class name="com.testng.handlemultiplebrowsers"/>>
+		</classes>
+			</test>
+			<test name="test1">
+				<classes>
+			<parameter name="url" value="https://www.facebook.com/"/>
+		    <parameter name="browsername" value="edge"/>
+
+			<class name="com.testng.handlemultiplebrowsers"/>>
+		</classes>
+
+	</test>
+	
+</suite>

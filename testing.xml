@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite">
+<test name="test">
+<classes>
+<class name="com.testng.demo1"/>
+<run>
+<groups>
+<exclude name="three"/>	
+</groups>
+</run>
+</classes>
+</test>
+</suite>

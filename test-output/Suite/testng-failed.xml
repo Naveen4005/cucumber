@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite]">
+  <test thread-count="5" name="test(failed)">
+    <parameter name="tc" value="TC12"/>
+    <classes>
+      <class name="tests.facebook_createaccounttest">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+          <include name="config"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- tests.facebook_createaccounttest -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [suite] -->
